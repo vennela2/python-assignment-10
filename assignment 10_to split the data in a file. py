@@ -1,0 +1,5 @@
+s=open("example.txt")
+data=s.readlines()
+for line in data:
+	x=line.split()
+	print(x)
